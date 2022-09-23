@@ -1,0 +1,19 @@
+#include<fstream.h>
+
+void main()
+{
+fstream my-file;
+my-file.open("my-file.txt",ios::out);
+if(!my-file)
+{
+cout<<"file not create";
+}
+else
+{
+cout<<"file create successfully";
+cout<<"This is my first file";
+my-file.close();
+}
+return ;
+
+}

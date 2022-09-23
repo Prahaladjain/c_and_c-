@@ -1,0 +1,35 @@
+#include<iostream.h>
+#include<conio.h>
+class number;
+{
+private:
+int a;
+int b;
+public:
+number()
+void set_a(int num1)
+{
+a=num1;
+}
+void set_b(int num2)
+{
+b=num2;
+}
+int get_a(void)const
+{
+return a;
+}
+int get_b(void)const
+{
+return b;
+}
+};
+int main()
+{
+number num;
+num set_a(100)
+num set_b(200)
+cout<<"Value of a"<<num get_a()<<endl;
+cout<<"Value of b"<<num get_b()<<endl;
+getch();
+}

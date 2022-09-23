@@ -1,0 +1,17 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+int i;
+double d;
+int &r =i;
+double &s =d;
+clrscr();
+i=5;
+cout<<"Value of "<<i<<endl;
+cout<<"vlaue of reference  " <<r<<endl;
+d=427.435247384;
+cout<<"value of"<<d<<endl;
+cout<<"value of reference  "<<s<< endl;
+getch();
+}

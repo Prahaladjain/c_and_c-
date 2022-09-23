@@ -1,0 +1,12 @@
+#include<graphics.h>
+#include<iostream.h>
+using namespace std;
+int main()
+{
+int gd=DETECT,GM;
+intgraph(-gd,-gm,"C:\\TC\\BGI");
+rectangle(100,100,200,200);
+getch();
+closegraph();
+return 0;
+}

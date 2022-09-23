@@ -1,0 +1,25 @@
+#include<iostream.h>
+#include<conio.h>
+class base
+{
+public:
+virtual void print()
+{
+cout<<"Base class";
+}
+};
+class Derived:public Base
+{
+public:
+void print()
+{
+cout<<"Derived class";
+}
+};
+void main()
+{
+Derived d1;
+Base *b1=&d1;
+b1-> print();
+getch();
+}

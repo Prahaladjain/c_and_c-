@@ -1,0 +1,45 @@
+#include<iostream.h>
+#include<conio.h>
+class shape
+{
+public:
+shape()
+{
+cout<<"Base class-shape"<<endl;
+}
+};
+class rectangle:public shape
+{
+public:
+rectangle()
+{
+cout<<"Derived class-rectangle"<<endl;
+}
+};
+class triangle:public shape
+{
+public:
+triangle()
+{
+cout<<"Derived class-triangle"<<endl;
+}
+};
+class circle:public shape
+{
+public:
+circle()
+{
+cout<<"Derived class-circle"<<endl;
+}
+};
+void main()
+{
+clrscr();
+rectangle r;
+cout<<"---------------"<<endl;
+triangle t;
+cout<<"---------------"<<endl;
+circle c;
+cout<<"---------------"<<endl;
+getch();
+}

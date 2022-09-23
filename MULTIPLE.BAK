@@ -1,0 +1,31 @@
+#include<iostream.h>
+#include<conio.h>
+class vehicle
+{
+public:
+vehicle()
+{
+cout<<"This is a vehicle"<<endl;
+}
+};
+class fourwheeler
+{
+public:
+fourwheeler()
+{
+cout<<"THis is a fourwheeler"<<endl;
+}
+};
+class car:public vehicle,public fourwheeler
+{
+public:
+car()
+{
+cout<<"HELLO";
+}
+};
+void main()
+{
+car obj;
+getch();
+}
